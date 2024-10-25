@@ -63,6 +63,8 @@ This procedure use the new [uv fast installer for python](https://github.com/ast
 
 **Do not wait to do this during the tutorial, it can be time consuming**
 
+For installtion, you can have more information [here](https://github.com/SpikeInterface/spikeinterface/tree/main/installation_tips)
+
 
 ## Dataset
 
