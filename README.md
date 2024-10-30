@@ -16,28 +16,25 @@ Material for the spike sorting/SpikeInterface training day, part of the [Neuraln
 Tuesday 12th November
 
 15:00-16:00 Introduction to spike sorting (Pierre)
-16:00-16:30 Coffee/tea break
-16:30-17:30 Overview of SpikeInterface + demo (Samuel)
+16:00-16:20 Coffee/tea break
+16:20-18:00 Overview of SpikeInterface + demo (Samuel)
 
 Wednesday 13th November
 
 09:00-12:00 Tutorials
 
-* Object interaction cookbook
-* Probe handling
-* Preprocessing
-* Drift with generated data
-* Postprocessing
-* Visualization (Sortingview, Sigui)
-* Metrics & Curation (Automerge, etc.)
+* Object interaction cookbook Sam 15min
+* Probe handling Sam 15min
+* Preprocessing Pierre 20min
+* Drift with generated data Pierre 20min
+* Postprocessing Sam 20min
+* pause 15min
+* Visualization (Sortingview, Sigui) Sam 20min
+* Metrics & Curation (Automerge, etc.) Pierre 20min
+* Sorting on your own dataset 30min
 
 Given the limited time, the hands-on session is more a follow-along guided tutorials.
 You can download all notebooks on this [repo](https://github.com/samuelgarcia/school_spike_sorting_neuralnet_saclay_2024).
-
-If we have time, we can try on your own dataset.
-
-
-
 
 
 
