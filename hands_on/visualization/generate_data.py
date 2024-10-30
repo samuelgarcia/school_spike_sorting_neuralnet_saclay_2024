@@ -2,7 +2,7 @@ import spikeinterface.full as si
 
 from pathlib import Path
 
-base_folder = Path('/home/samuel/DataSpikeSorting/Edinburgh_SI_tutos/')
+base_folder = Path('/home/samuel/DataSpikeSorting/gdr2024_tutorials/')
 
 si.set_global_job_kwargs(n_jobs=-1, progress_bar=True, chunk_duration="1s")
 
@@ -78,6 +78,12 @@ def run():
     sorting_sc2 = si.run_sorter("spykingcircus2", rec,
                                 output_folder=base_folder / "postprocessing_data" / "sorter_SC2",
                                 verbose=True,
+                                motion_correction=dict(
+                                    preset="dredge_fast",
+                                    estimate_motion_kwargs=dict(
+                                        rigid=True
+                                        ),
+                                    ),
                                 )
 
     sorting = sorting_sc2.save(folder=base_folder / "postprocessing_data" / "sorting_mysterious")
@@ -105,6 +111,6 @@ if __name__ == "__main__":
 
     # gen_data()
     # run()
-    sc2_analyzer()
+    # sc2_analyzer()
 
 
